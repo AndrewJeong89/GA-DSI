@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<persons_2 &le; 0.5<br/>gini = 0.4573<br/>samples = 100.0%<br/>value = [0.22, 0.04, 0.7, 0.04]<br/>class = unacc>, fillcolor="#399de59d"] ;
+1 [label=<safety_low &le; 0.5<br/>gini = 0.5792<br/>samples = 66.7%<br/>value = [0.33, 0.06, 0.55, 0.06]<br/>class = unacc>, fillcolor="#399de553"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<maint_vhigh &le; 0.5<br/>gini = 0.6288<br/>samples = 44.4%<br/>value = [0.5, 0.09, 0.33, 0.08]<br/>class = acc>, fillcolor="#e5813942"] ;
+1 -> 2 ;
+3 [label=<gini = 0.6286<br/>samples = 33.3%<br/>value = [0.54, 0.12, 0.23, 0.11]<br/>class = acc>, fillcolor="#e5813968"] ;
+2 -> 3 ;
+4 [label=<gini = 0.4688<br/>samples = 11.1%<br/>value = [0.38, 0.0, 0.62, 0.0]<br/>class = unacc>, fillcolor="#399de566"] ;
+2 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 22.2%<br/>value = [0.0, 0.0, 1.0, 0.0]<br/>class = unacc>, fillcolor="#399de5ff"] ;
+1 -> 5 ;
+6 [label=<gini = 0.0<br/>samples = 33.3%<br/>value = [0.0, 0.0, 1.0, 0.0]<br/>class = unacc>, fillcolor="#399de5ff"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
