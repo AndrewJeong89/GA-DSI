@@ -1,0 +1,31 @@
+INFO:__main__:INTEGER
+INFO:__main__:INTEGER
+INFO:__main__:INTEGER
+ERROR:__main__:ERROR
+WARNING:__main__:WARNING!
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+CRITICAL:__main__:Needs an integer!
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+CRITICAL:__main__:Needs an integer!
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+INFO:__main__:Just running the function
+CRITICAL:__main__:Needs an integer!
+INFO:__main__:x is equal to 5
+INFO:__main__:Equal to 5
